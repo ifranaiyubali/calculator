@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Ifi131286
   demands:
-  - agent.name -equals az400m05-vm00
+  - agent.name -equals az400m05-vm0
 
 steps:
 - task: NodeTool@0
