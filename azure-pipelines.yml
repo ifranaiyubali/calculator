@@ -19,7 +19,10 @@ steps:
 
 - script: |
     npm install
-    npm audit fix
+  displayName: 'npm install'
+- script: |
     npm run build
+  displayName: 'npm build'
+- script: |
     npm test
-  displayName: 'npm install, build, and test'
+  displayName: 'npm test'
