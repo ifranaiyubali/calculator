@@ -27,6 +27,6 @@ steps:
     npm run build
   displayName: 'npm build'
 - script: |
-    SET PATH=C:\agent\_work\_tool\node\10.24.1\x64\node.exe;%PATH%
+    SET PATH=C:\agent\_work\_tool\node;%PATH%
     npm test
   displayName: 'npm test'
